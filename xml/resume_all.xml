@@ -1,0 +1,52 @@
+<xs:element name="resume">
+  <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HigherEducation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="candidate">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type = "xs:string"/>
+                    <xs:element name="LastName" type = "xs:string"/>                    
+                    <xs:element name="Age" type = "xs:positiveInteger"/>
+                    <xs:element name="Work" type = "xs:string"/>
+                    <xs:element name="spec" type = "xs:string"/> 
+                    <xs:element name="DateOfBirth" type = "xs:date"/>
+                    <xs:element name="Education" type = "xs:string"/>
+                    <xs:element name="Address" type = "xs:string"/>
+                    <xs:element name="Phone" type = "xs:string"/>
+                    <xs:element name="FamStatus" type = "xs:string"/>
+                    <xs:element name="DesiredSalary" type = "xs:positiveInteger"/> 
+                   </xs:sequence>
+                 </xs:complexType>   
+               </xs:element>   
+             </xs:sequence>
+           </xs:complexType>   
+         </xs:element> 
+         <xs:element name="SecondaryEducation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="candidate">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type = "xs:string"/>
+                    <xs:element name="LastName" type = "xs:string"/>                  
+                    <xs:element name="Age" type = "xs:positiveInteger"/>
+                    <xs:element name="Work" type = "xs:string"/>
+                    <xs:element name="spec" type = "xs:string"/> 
+                    <xs:element name="DateOfBirth" type = "xs:date"/>
+                    <xs:element name="Education" type = "xs:string"/>
+                    <xs:element name="Address" type = "xs:string"/>
+                    <xs:element name="Phone" type = "xs:string"/>
+                    <xs:element name="FamStatus" type = "xs:string"/>
+                    <xs:element name="DesiredSalary" type = "xs:positiveInteger"/> 
+                   </xs:sequence>
+                 </xs:complexType>   
+               </xs:element>   
+             </xs:sequence>
+           </xs:complexType>   
+         </xs:element> 
+      </xs:sequence>  
+  </xs:complexType>
+</xs:element>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE library SYSTEM "dtd.dtd">
+<TimeTable xmlns:vb ="http://www.itmo.ru/vb/lessons"
+           xmlns:vb_ob ="http://www.itmo.ru/vb_ob/lessons"
+           xmlns:QT_C ="http://www.itmo.ru/qt_c/lessons">
+    <vb:course>
+        <vb:name>Курс первый</vb:name>
+        <vb:teacher>Преподаватель Юденко.А.В <vb:teacher>
+        <vb:time>17:30<vb:time>
+        <vb:begin>11.09.2018<vb:begin>
+        <vb:end>01.5.2019<vb:end>
+       
+    </vb:course>
+
+    <vb_ob:course>
+        <vb_ob:name>Курс второй</vb_ob:name>
+        <vb_ob:teacher>Преподаватель Юденко.А.В </vb_ob:teacher>
+        <vb_ob:time>17:30</vb_ob:time>
+        <vb_ob:begin>1.02.2019</vb_ob:begin>
+        <vb_ob:end>17.04.2020</vb_ob:end>
+        
+    </vb_ob:course>
+
+    <QT_C:course>
+        <QT_C:name>Курс №3</QT_C:name>
+        <QT_C:teacher>Преподаватель №3 </QT_C:teacher>
+        <QT_C:time>17:30</QT_C:time>
+        <QT_C:begin>02.02.2020</QT_C:begin>
+        <QT_C:end>20.04.2021</QT_C:end>
+       
+    </QT_C:coursQT_C>
+
+</TimeTable>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<xs:schema xmlns:xs="resume_all.xml">
+<resume>
+	<candidate id = "1">
+		<Name></Name>
+		<LastName></LastName>	
+		<Age></Age>
+		<WorkPlace></WorkPlace>
+		<spec></spec>
+		<DateOfBirth></DateOfBirth>
+		<Education></Education>
+		<Address></Address>
+		<Phone></Phone>
+		<FamStatus></FamStatus>
+		<DesiredSalary currency = "RUR"></DesiredSalary>
+	</candidate>
+	
+	<candidate id = "2">		
+		<Name></Name>
+		<LastName></LastName>	
+		<Age></Age>
+		<WorkPlace></WorkPlace>
+		<spec></spec>
+		<DateOfBirth></DateOfBirth>
+		<Education></Education>
+		<Address></Address>
+		<Phone></Phone>
+		<FamStatus></FamStatus>
+		<DesiredSalary currency = "RUR"></DesiredSalary>
+	</candidate>	
+</resume>
